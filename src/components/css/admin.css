@@ -1,0 +1,134 @@
+.adm-one{
+    display: flex;
+  /* align-items: center; */
+}
+
+.adm-sidebar{
+    width: 17%;
+    /* height: 100%; */
+    height: auto;
+    /* border: 1px solid blue; */
+    background-color: #008080;;
+    color: white;
+}
+
+.adm-two{
+    width: 82.6%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    /* margin: auto; */
+}
+
+.adm-s-one{
+    width: 95%;
+    height: 60px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+    /* margin-bottom: 15px; */
+    display: flex;
+    color: rgb(70, 140, 202);
+    flex-direction: row;
+  
+}
+
+.adm-icon1{
+    font-size: 41px;
+    /* margin-left: 15px; */
+    color: greenyellow;
+}
+
+
+
+
+.adm-s-one1{
+    font-size: 41px;
+   
+    height: 100%;
+    width: 23%;
+    text-align: center;
+    display: contents;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.adm-s-one2{
+    display: inline-block; 
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 11px;
+}
+
+
+.adm-child{
+    
+    color: white;
+    margin-top: 15px;
+}
+
+.adm-child:hover {
+    cursor: pointer;
+    background-color: white;
+    color:rgb(70, 140, 202);
+}
+.adm-child p:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(7 7 99);;  
+}
+
+.adm-icon2{
+    font-size: 30px;
+    margin-left: 15px;
+}
+.adm-p2{
+    display: inline-block;
+    color: white;
+    margin-left: 17px;
+}
+
+/* reponsiveness  */
+
+
+@media screen and (max-width: 768px) {
+   .adm-s-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+   }
+   .adm-sidebar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+    height: 1218px;
+   }
+   .adm-s-one{
+    font-size: 5px;
+   }
+   .adm-s-one1{
+    font-size: 19px;
+   }
+   .adm-s-one2{
+    font-size: 5px;
+   }
+   .adm-p2 {
+    display: inline-block;
+    color: white;
+    width: 78px;
+    /* margin-left: 17px; */
+    font-size: 11px;
+}
+
+  }
+  

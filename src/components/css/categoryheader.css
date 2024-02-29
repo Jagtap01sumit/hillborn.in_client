@@ -1,0 +1,32 @@
+.ch-one{
+    /* background-color: lightblue; */
+    margin-top: 0;
+    height: 3%;
+}
+
+.ch-list-controller{
+    /* border: 1px solid red; */
+    list-style: none;
+    text-align: center;
+    margin-top: 0;
+    height: 100%;
+    border-bottom: 1px solid rgb(207, 203, 203);
+}
+
+.ch-li-link{
+    color:red;
+    margin-top:5px;
+    /* height: 100%; */
+}
+
+.ch-li-link:hover{
+    text-decoration: underline;
+}
+
+.ch-list-child{
+    font-weight: 600;
+    display: inline-block;
+    margin: 0px 44px;
+    height: 100%;
+
+}

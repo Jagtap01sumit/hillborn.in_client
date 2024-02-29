@@ -1,0 +1,312 @@
+.ptc-one{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    height: 420px;
+}
+
+.ptc-two{
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.ptc-imgone{
+          /* border: 1px solid green; */
+    width: 84%;
+    height: 77%;
+    margin: auto;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+
+
+.ptc-btnone{
+    border: none;
+    margin-left: 19%;
+    margin-top: 2%;
+    width: 23%;
+    height: 9%;
+    font-size: 17px;
+    background: #eded80;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.ptc-btnone:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.ptc-h3{
+    font-size: 25px;
+    margin-left: 17.5%;
+    margin-bottom: 0;
+    color: #4cc84c;
+}
+
+.ptc-boxone{
+    border-radius: 10px;
+    /* border: 1px solid grey; */
+    border: 1px solid #6e776e;
+    width: 53%;
+    height: 63%;
+    margin-left: 4%;
+    margin-top: 8%;
+    /* box-shadow: 3px 3px 10px 3px rgb(196 196 196); */
+}
+
+
+.ptc-pone{
+    /* border: 1px solid green; */
+    display: inline-block;
+    margin: 0;
+    margin-left: 17.5%;
+}
+
+.ptc-h2{
+    color: teal;
+    font-size: 35px;
+    margin-left: 6%;
+    font-size: 35px;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.ptc-ptwo{
+    margin-left: 6%;
+}
+
+.ptc-two-child{
+       /* border: 1px solid green; */
+       height: 64%;
+       width: 62%;
+       margin-left: 31%;
+       margin-top: 8%;
+       background-color: #ccd7d5;
+}
+
+.ptc-btntwo{
+    width: 29%;
+    margin-left: 13%;
+    background: #96dc96;
+    border: none;
+    height: 11%;
+    border: 0.5px solid green;
+    border-radius: 4px;
+}
+.ptc-btntwo:hover{
+    cursor: pointer;
+}
+
+.ptc-h3-three{
+    /* border: 1px solid green; */
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-left: 25%;
+    color: teal;
+}
+
+.ptc-pfive{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-left: 25%;
+}
+
+.ptc-three{
+    /* border: 1px solid blue; */
+    /* margin-top: 15px; */
+}
+
+.ptc-h3-two{
+    text-align: center;
+    color: teal;
+    font-size: 35px;
+    margin: 0;
+}
+
+.ptc-three-child{
+    margin: 0;
+    width: 50%;
+    /* height: 200px; */
+    height: auto;
+    margin: auto;
+    border: 1px solid green;
+    margin-bottom: 2%;
+}
+.ptc-pthree{
+    /* border: 1px solid red; */
+    padding-left: 15%;
+    font-weight: bold;
+    color: #4cc84c;
+    margin-bottom: 0;
+}
+
+.ptc-pthree-child{
+    text-align: right;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-left: 48%;
+    color: red;
+}
+
+.ptc-icon1{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.ptc-pfour{
+    padding-left: 20%;
+    color: black;
+    margin-top: 0;
+}
+.overcut{
+    border: none;
+    margin-left: 48%;
+    margin-top: 1%;
+    /* width: 23%; */
+    /* height: 9%; */
+    font-size: 17px;
+    background: #eded80;
+    font-size: 15px;
+    border-radius: 7px;
+    color: black;
+    padding: 1%;
+    padding: 1% 4%;
+}
+.ptc-btnfive{
+    width: 11%;
+    background: #96dc96;
+    border: none;
+    height: 34px;
+    border: 0.5px solid green;
+    border-radius: 4px;
+    margin: auto;
+    margin-left: 64%;
+    margin-bottom: 2%;
+}
+
+.ptc-four{
+    /* border: 1px solid blue; */
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+    background-color: #dbebdc;
+}
+.ptc-textareaone{
+    display: block;
+    width: 90%;
+    margin: auto;
+    /* margin-bottom: 4%; */
+    margin-top: 1%;
+}
+
+.ptc-inputone{
+    margin-left: 4.5%;
+    margin-top: 3%;
+}
+
+.ptc-btnfour{
+    margin-left: 4.5%;
+    margin-top: 1%;
+    width: 15%;
+    margin-bottom: 2%;
+}
+
+@media (max-width:820px){
+    .ptc-one{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .ptc-two{
+        width: 100%;
+    }
+    .ptc-imgone{
+        /* margin: 5%  0% 0% 2%; */
+        margin:6% 5%;
+        width: 90%;
+        height: 82%;
+    }
+    .ptc-two-child{
+          /* margin-left: 5%; */
+        margin: auto;
+        width: 99%;
+        height: 230px;
+    }
+    .ptc-btnone{
+        margin-left: 32%;
+        width: 35%;
+        height: 40px;
+
+    }
+    .ptc-h3{
+        margin-left: 5%;
+    }
+    .ptc-pone{
+        margin-left: 5%;
+    }
+    .ptc-boxone{
+        width: 100%;
+        margin-left: 0;
+        border: none;
+        box-shadow: none;
+        margin-bottom: 35px;
+    }
+    .ptc-btntwo{
+        height: 35px;
+    }
+    .ptc-h2{
+        font-size: 35px;
+    }
+    .ptc-three{
+        /* border: 1px solid blue; */
+    }
+    .ptc-three-child{
+        /* border: none; */
+        border: 0.2px solid grey;
+        width: 95%;
+    }
+    .ptc-pthree{
+        padding-left: 0;
+    }
+    .ptc-pthree-child{
+        margin-left: 25%;
+    }
+    .ptc-pfour{
+        padding-left: 13%;
+    }
+    .ptc-icon1{
+        margin-left: 5%;
+        margin-right: 3px;
+    }
+    .ptc-h3-three{
+        width: 100%;
+        margin:0;
+        text-align: center;
+    }
+    .ptc-pfive{
+
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .ptc-btnfive{
+        width: 30%;
+        margin-left: 3%;
+    }
+    .ptc-four{
+        width: 90%;
+    }
+    .ptc-inputone{
+        width: 89%;
+    }
+    .ptc-btnfour{
+        width: 35%;
+    }
+}

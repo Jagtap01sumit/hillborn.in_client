@@ -1,0 +1,139 @@
+.cart-one{
+    /* border: 1px solid red; */
+    width: 55%;
+    margin: auto;
+    height: auto;
+}
+
+.cart-two{
+    width: 100%;
+    border: 1px solid teal;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #dcf1f1;
+    margin: 3% 0%;
+}
+
+.cart-twocone{
+    width: 34%;
+    /* border: 1px solid blue; */
+    height: 100%;
+}
+
+.cart-twoctwo{
+    width: 64%;
+    /* border: 1px solid blue; */
+    height: 100%;
+}
+
+.cart-imgone{
+    width: 83%;
+    height: 80%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.cart-h3{
+    padding-left: 5%;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.cart-h4{
+    padding-left: 5%;
+    margin-top: 7px;
+}
+
+.cart-buttons{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 47%;
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    text-align: center;
+    padding: 1%;
+    cursor: pointer;
+    color: white;
+}
+
+.cart-icon1{
+    margin-right: 5%;
+}
+
+.buy-btn{
+    background-color: green;
+}
+.remove-btn{
+    background-color: red;
+}
+.cart-h1{
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.cart-btnone{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border: none;
+    width: 24%;
+    height: 41px;
+    font-size: 17px;
+    margin-left: 45%;
+    cursor: pointer;
+}
+
+@media (max-width:820px){
+    .cart-one{
+        width: 90%;
+    }
+    .cart-two{
+        height: auto;
+    }
+    .cart-twocone{
+        width: 100%;
+        /* border: 1px solid blue; */
+    }
+    .cart-twoctwo{
+        width: 100%;
+        /* border: 1px solid blue; */
+    }
+    .cart-imgone{
+        width: 90%;
+        height: 150px;
+        object-fit: cover;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .cart-h3{
+        margin-top: 2px;
+    }
+    .cart-buttons{
+        margin-top: 0;
+        font-weight: bold;
+        width: 48%;
+    }
+    .cart-h4{
+        padding-left: 5%;
+        margin-top: 7px;
+        margin-bottom: 2px;
+    }
+    .cart-h1{
+        display: block;
+        /* border: 1px solid red; */
+    }
+    .cart-btnone{
+        /* display: inline-block; */
+        color: white;
+        background-color: red;
+        border: none;
+        width: 50%;
+        height: 41px;
+        font-size: 17px;
+        margin-left: 0;
+        cursor: pointer;
+    }
+}

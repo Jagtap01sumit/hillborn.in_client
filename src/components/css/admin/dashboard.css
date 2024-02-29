@@ -1,0 +1,196 @@
+.dash-one {
+    /* border: 2px solid green; */
+    /* background-color: lightblue; */
+    width: 100%;
+    height: 100%
+}
+
+
+.dash-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 140px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.dash-two-child {
+    /* border:1px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(20, 20, 20, 0.36);
+}
+
+.dash-circle1 {
+    border: 1px solid #74db74;
+    width: 100px;
+    height: 100px;
+    border-radius: 53px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #74db74;
+    color: white;
+}
+
+.dash-circle2 {
+    border: 1px solid #be61e8;
+    width: 100px;
+    height: 100px;
+    border-radius: 53px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #be61e8;
+    color: white;
+}
+
+.dash-circle3 {
+    border: 1px solid #ff8888;
+    width: 100px;
+    height: 100px;
+    border-radius: 53px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ff8888;
+    color: white;
+}
+
+.dash-t-c-super {
+    width: 33%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.dash-t-c-super1 {
+    width: 66%;
+    height: 100%;
+    /* background-color:lightcoral; */
+    text-align: left;
+}
+
+.dash-p1 {
+    margin-top: 19px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.dash-p2 {
+    font-size: 19px;
+    margin-bottom: 0;
+    margin-left: 23px;
+    margin-top: 29px
+}
+
+.dash-p3 {
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 23px;
+    margin-top: 11px;
+}
+
+.dash-icon-c1 {
+    font-size: 46px;
+}
+
+.dash-three {
+    /* border: 1px solid red; */
+    height: 410px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dash-three-child1 {
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 29%;
+    box-shadow: 0 0 5px rgba(20, 20, 20, 0.36);
+    border-radius: 15px;
+}
+
+.chart-wrap {
+    height: 377px;
+    width: 360px;
+    /* border: 1px solid red; */
+}
+
+.chart-title {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* css for responsiveness  */
+/* Apply these styles for screens up to 768px width */
+@media (max-width: 768px) {
+    .dash-one {
+        height: auto;
+        padding: 20px;
+        /* Add some padding for better spacing on small screens */
+    }
+
+    .dash-two {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .dash-two-child {
+        width: 100%;
+        margin-bottom: 20px;
+        /* Add margin between the children for spacing */
+    }
+
+    .dash-circle1,
+    .dash-circle2,
+    .dash-circle3 {
+        width: 80px;
+        /* Make the circles smaller */
+        height: 80px;
+        /* Make the circles smaller */
+    }
+
+    .dash-t-c-super1 {
+        text-align: center;
+        /* Center align text for smaller screens */
+        margin-top: 10px;
+        /* Adjust the top margin */
+    }
+
+    .dash-p2 {
+        font-size: 20px;
+    }
+
+    .dash-p3 {
+        font-size: 20px;
+    }
+
+    .dash-three {
+        height: auto;
+    }
+
+    .dash-three-child1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .chart-wrap {
+        height: 300px;
+        /* Reduce the height of the chart container */
+        width: 100%;
+        /* Make it full-width for small screens */
+    }
+}
