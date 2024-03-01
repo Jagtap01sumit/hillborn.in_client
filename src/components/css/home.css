@@ -435,7 +435,7 @@ body {
 
 
 
-.search input {
+/* .search input {
 
     outline: none;
 
@@ -446,17 +446,17 @@ body {
     color: #cac7ff;
     padding: 24px 20px;
 
-}
+} */
 
-.search input:focus {
+/* .search input:focus {
     outline: none;
-}
+} */
 
-::placeholder {
+/* ::placeholder {
     color: #cac7ff;
-}
+} */
 
-.search button {
+/* .search button {
     border: 0;
     border-radius: 50%;
     width: 50px;
@@ -467,9 +467,9 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-}
+} */
 
-.search-form {
+/* .search-form {
     width: 100%;
     max-width: 600px;
     background-color: white;
@@ -477,10 +477,10 @@ body {
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* justify-content: center; */
-    border-radius: 60px;
-    /* margin-left: 40px; */
-    padding: 2px 15px;
-}
+/* border-radius: 60px; */
+/* margin-left: 40px; */
+/* padding: 2px 15px;
+} */
 
 .h-pmain {
     text-align: center;

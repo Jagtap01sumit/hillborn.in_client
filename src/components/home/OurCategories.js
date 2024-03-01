@@ -16,7 +16,7 @@ export default function OurCategories() {
       <div>
         <p className="h-pmain">Our categories</p>
         <div className="h-three">
-          <div className="h-three-flexer bg-white p-4 rounded-lg">
+          <div className="h-three-flexer bg-white p-4 rounded-lg sm:m-2 lg:m-0">
             <div className="h-flex-childs" data-aos="fade-out">
               <i
                 className="fa-solid fa-graduation-cap h-icon1"

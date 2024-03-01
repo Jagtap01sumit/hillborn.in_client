@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Card = ({ data }) => {
   const navigate = useNavigate();
-  // console.log("DATA",data)
+
   const userID = localStorage.getItem("userID");
   const themeID = data._id;
 
@@ -66,7 +66,7 @@ const Card = ({ data }) => {
   }
   return (
     <>
-      <div className="card-one bg-red-400 ">
+      <div className="card-one  ">
         <div className="card-two ">
           <img
             src={data.img}
