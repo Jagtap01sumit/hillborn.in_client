@@ -48,7 +48,7 @@ export default function SliderSection() {
   return (
     <div>
       {" "}
-      <div id="categories" className="mt-5">
+      <div id="categories" className="mt-24">
         {mainstate.categories ? (
           <>
             {mainstate.categories.map((ele, index) => {

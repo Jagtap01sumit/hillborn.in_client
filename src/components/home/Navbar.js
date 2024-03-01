@@ -272,7 +272,7 @@ const Navbar = () => {
                   isSticky ? "text-white" : "text-gray-700")
                 } rounded md:bg-transparent md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700  md:dark:hover:bg-transparent`}
               >
-                <Link to="/registration">Register</Link>
+                <Link to="/register">Register</Link>
               </button>
             )}
             {localStorage.getItem("userID") ? (

@@ -34,7 +34,7 @@ export default function Main() {
         >
           <div className=" lg:my-28 my-20 w-full">
             <div className="flex items-center justify-center font-bold sm:my-20 text-xl mb-10 lg:text-4xl">
-              <p className="sm:flex sm:items-center sm:justify-center ">
+              <p className="sm:flex sm:items-center sm:justify-center sm:mt-10 md:mt-5 mt-10">
                 Discover, Explore, Connect, Thrive
               </p>
             </div>
