@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Navbar";
+
 import "../../css/details.css";
 import "../../css/login.css";
 import { useParams } from "react-router-dom";
@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { AiFillEdit } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import Navbar from "../../home/Navbar";
 
 const Details = () => {
   const [show, setShow] = useState(false);
@@ -54,7 +55,6 @@ const Details = () => {
         return res.json();
       })
       .then((data) => {
-        // console.log(data)
         setName(data.user.name);
         setEmail(data.user.email);
       })
@@ -68,8 +68,6 @@ const Details = () => {
   }, []);
 
   useEffect(() => {
-    // fetch(`https://myknot-official.herokuapp.com/api/themes/getonetheme`, {
-    //  fetch(`http://65.0.19.30:3001/api/themes/getonetheme`, {
     fetch(`http://localhost/api/themes/getonetheme`, {
       method: "GET",
       headers: {
@@ -97,8 +95,6 @@ const Details = () => {
     } else {
       try {
         await fetch("http://localhost/api/payement/getclientdetails", {
-          // await fetch("http://65.0.19.30:3001/api/payement/getclientdetails", {
-          // await fetch("https://myknot-official.herokuapp.com/api/payement/getclientdetails", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -165,7 +161,7 @@ const Details = () => {
   return (
     <>
       <Navbar />
-      <div className="details-section">
+      <div className="details-section mt-20">
         <div className="d-one">
           <div className="d-two">
             <h1 className="d-h1">Check your details</h1>
@@ -179,8 +175,9 @@ const Details = () => {
             <div className="d-three-childtwo">
               <div className="d-tc-one">
                 <div className="details">
-                  <AiFillEdit className="icons" /> <h4> {name}</h4>
+                  <AiFillEdit className="icons" />
                 </div>
+                <h4> {name}</h4>
                 <button
                   onClick={() => {
                     {
@@ -189,7 +186,7 @@ const Details = () => {
                       setS1(true);
                     }
                   }}
-                  className="d-button-update"
+                  className="d-button-update p-2 flex items-center justify-center"
                 >
                   Update
                 </button>
@@ -207,7 +204,7 @@ const Details = () => {
                       setS2(true);
                     }
                   }}
-                  className="d-button-update"
+                  className="d-button-update p-2 flex items-center justify-center"
                 >
                   Update
                 </button>
@@ -225,7 +222,7 @@ const Details = () => {
                       setS3(true);
                     }
                   }}
-                  className="d-button-update"
+                  className="d-button-update p-2 flex items-center justify-center"
                 >
                   Update
                 </button>
@@ -245,34 +242,39 @@ const Details = () => {
         </div>
       </div>
       {show ? (
-        <div className="dd-one">
-          <div className="dd-two">
-            <div className="d-h4-one">
-              {s1 === true ? "Name" : s2 === true ? "Email" : "Phone"}
+        <div className="w-full flex justify-center  items-center">
+          <div className="bg-blue-900 absolute top-20 flex justify-center m-3 rounded-lg">
+            <div className="">
+              <div className=" flex items-center justify-center text-white font-bold">
+                {s1 === true ? "Name" : s2 === true ? "Email" : "Phone"}
+              </div>
+              <div className="flex flex-col items-center justify-center p-2">
+                <textarea
+                  className="w-4/5"
+                  name=""
+                  id=""
+                  cols="40"
+                  rows="10"
+                  value={s1 === true ? name : s2 === true ? email : phone}
+                  onChange={(e) => {
+                    s1 === true
+                      ? setName(e.target.value)
+                      : s2 === true
+                      ? setEmail(e.target.value)
+                      : setPhone(e.target.value);
+                  }}
+                ></textarea>
+                <button
+                  onClick={() => {
+                    setShow(false);
+                    updateHandler();
+                  }}
+                  className="flex bg-white p-2 m-2 rounded-xl"
+                >
+                  Done
+                </button>
+              </div>
             </div>
-            <textarea
-              name=""
-              id=""
-              cols="50"
-              rows="10"
-              value={s1 === true ? name : s2 === true ? email : phone}
-              onChange={(e) => {
-                s1 === true
-                  ? setName(e.target.value)
-                  : s2 === true
-                  ? setEmail(e.target.value)
-                  : setPhone(e.target.value);
-              }}
-            ></textarea>
-            <button
-              onClick={() => {
-                setShow(false);
-                updateHandler();
-              }}
-              className="dd-button"
-            >
-              Done
-            </button>
           </div>
         </div>
       ) : null}

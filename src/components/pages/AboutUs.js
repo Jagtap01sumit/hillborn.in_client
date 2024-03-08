@@ -21,7 +21,8 @@ const AboutUs = () => {
         <h2 className="abt-h2-1" data-aos="fade-up">
           Who we are{" "}
         </h2>
-        <p className="abt-p-1" data-aos="fade-up">
+
+        <p className=" text-left p-10" data-aos="fade-up">
           Hillborn Technologies, where innovation meets impact, has been
           revolutionizing the digital landscape since 2019. In our journey
           spanning over 4 years, we've proudly partnered with 500+ clients and
@@ -113,14 +114,14 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className="abt-four-s-2" data-aos="fade-right">
-            <div className="abt-four-ss1">
+          <div className="abt-four-s-2 " data-aos="fade-right">
+            <div className="abt-four-ss1 ">
               <img src={image3} alt="" className="abt-img1" />
             </div>
             <div className="abt-four-ss2">
               <p className="abt-p-2">Mano Gnanaseelan</p>
               <p className="abt-p-3">Co-founder & CTO</p>
-              <p className="abt-p-4">
+              <p className="abt-p-4 ">
                 I'm Mano Gnanaseelan, the Chief Technology Officer (CTO) at
                 Hillborn Technologies, where technology is not just a tool but a
                 driving force for transformative change. With over 7 years of

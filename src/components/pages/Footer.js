@@ -64,7 +64,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="f-one">
+      <div className="f-one bg-gray-900">
         <div className="f-two">
           {/* <p className="f-p1">ShopX</p> */}
           <p className="f-p2">

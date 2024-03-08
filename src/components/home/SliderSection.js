@@ -8,11 +8,11 @@ export default function SliderSection() {
     // dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
-    speed: 500,
+    // speed: 500,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     // nextArrow: <SampleNextArrow />,
@@ -59,7 +59,7 @@ export default function SliderSection() {
                       {ele.name}
                     </p>
                   </div>
-                  <div className="lg:mx-40 m-10 sm:px-8 bg-white py-10 rounded-lg">
+                  <div className="  sm:px-8 bg-white py-10 rounded-lg">
                     <Slider {...settings}>
                       {mainstate.themes &&
                         mainstate.themes.map((eles, indexs) => {
